@@ -90,9 +90,9 @@ class _loginPageState extends State<loginPage> {
     if (storage.getItem('api_url') != "" &&
         storage.getItem('api_url') != null) {
       txtApiUrl.text =
-          storage.getItem('api_url'); 
+          storage.getItem('api_url'); // "http://sdhq.fortiddns.com:8815/api";
     } else {
-      txtApiUrl.text = ""; 
+      txtApiUrl.text = ""; // "http://sdhq.fortiddns.com:8815/api";
     }
   }
 

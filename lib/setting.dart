@@ -5,9 +5,9 @@ import 'package:localstorage/localstorage.dart';
 final LocalStorage storage = new LocalStorage('localstorage_app');
 
 var api_url =
-    storage.getItem('api_url'); 
+    storage.getItem('api_url'); //"http://sdhq.fortiddns.com:8815/api";
 
-
+//var img_url = storage.getItem('api_url').replaceAll("/api", "/");
 
 void showCommonAlert(BuildContext context, alertText, height) {
   var height1 = double.parse(height.toString());
